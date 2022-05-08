@@ -31,3 +31,15 @@ which will convert it into an one dimensional array .
 
 With the help of tensorflow,Keras python library we have successfully created
 a CNN(convolution Neural Network model)
+
+Earlier we have use ANN(artificial Neural Network)with 3 DEnse layer with RELU activation function and
+with an output layer with SOFTMAX function,which doesnt give a required /optimum score to the model 
+so we rejected it and carry forward our training with CNN
+
+In CNN moderl we have used 9 layers(total)with 7 hidden layers of conv 1-D with diffrent kernel size ,keeping the PADDING same and 
+applying Batchnormalization in the middle layers 
+and one GLOBALMAXPOOLING1-D to the last hidden layer .
+
+We compiled our model using BINARY_CROSSENTROPY LOSS,and optimizer used : ADAM,with ACCURACY metric
+
+**FITTING THE MODEL**
