@@ -69,7 +69,7 @@ We have tested our prediction on the test data set which gives an array whose va
 we have taken a threshold value of 0.5.i.e, if the value of prediction is more than 0.5 then it will come under class 1 else in class 0
 (classification)
 
-**1-->LEAK PIPE
+** 1-->LEAK PIPE **
   
- 0-->NON-LEAK PIPE **
+** 0-->NON-LEAK PIPE **
 
