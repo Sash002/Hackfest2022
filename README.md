@@ -54,9 +54,12 @@ we have plotted our training and test loss to visualise our model
 
 ![download](https://user-images.githubusercontent.com/79101972/167283505-71fd7e3d-dca7-4a1e-80d4-1a340ffe9164.png)
 
+
 We have tested our prediction on the test data set which gives an array whose values are between 0 and 1
+
 we have taken a threshold value of 0.5.i.e, if the value of prediction is more than 0.5 then it will come under class 1 else in class 0
 (classification)
+
 **1-->LEAK PIPE
   0-->NON-LEAK PIPE **
 
