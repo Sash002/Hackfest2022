@@ -73,7 +73,6 @@ we have taken a threshold value of 0.5.i.e, if the value of prediction is more t
   
 **0-->NON-LEAK PIPE**
 
-**DEPLOYMENT OF MODEL**
+**DEPLOYMENT**
 
 After building the model, the model is deployed via a user friendly web interface, namely Gradio. Time series is given for the inputs for the output to predict if there's a leak or not.
-
