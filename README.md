@@ -4,7 +4,7 @@
 
 The primary goal of the project is to leverage recent  developments  in  smart  water  technologies  to  detectand  reduce  water  leakages  in  large  water  distribution  networks  with  the  aid  of  neural  networks. We  have  developed two different models, the first model is based on Artificial NeuralNetworks (ANNs) which not give the desired accurecy. The second  model  is  based  on convolutional NeuralNetworks (CNNs) .  CNNS model able  to  correctly  classify  the  leak nodes with good accuracy,
 
-#**DATA COLLECTION**
+# **DATA COLLECTION**
 
 **Included Files with the repository -**
 
@@ -21,7 +21,7 @@ Link for Dataset : https://data.mendeley.com/datasets/hkn8mxcjyz/1
 
 
 
-#**DATA PREPROCESSING**
+**DATA PREPROCESSING**
 
 We have used LIBROSA python package for audio analysis purpose
 
@@ -35,7 +35,7 @@ Here we have use MFCC(Mel-Frequency Cepstral Coefficients)featrure extraction to
 which will convert it into an one dimensional array .
 
 
-#**MODEL**
+**MODEL**
 
 With the help of tensorflow,Keras python library we have successfully created
 a CNN(convolution Neural Network model)
