@@ -1,4 +1,4 @@
-##  Hackfest2022
+### Hackfest2022
 
 **Goal of our project**
 
