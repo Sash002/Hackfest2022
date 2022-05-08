@@ -4,7 +4,7 @@
 
 The primary goal of the project is to leverage recent  developments  in  smart  water  technologies  to  detectand  reduce  water  leakages  in  large  water  distribution  networks  with  the  aid  of  neural  networks. We  have  developed two different models, the first model is based on Artificial NeuralNetworks (ANNs) which not give the desired accurecy. The second  model  is  based  on convolutional NeuralNetworks (CNNs) .  CNNS model able  to  correctly  classify  the  leak nodes with good accuracy,
 
-**DATA COLLECTION**
+# DATA COLLECTION
 
 **Included Files with the repository -**
 
@@ -13,7 +13,7 @@ Data : A portion of used Data to observe the nature
 Analysis_and_Model.ipynb : Analysis of Data, Training the model, Testing the model
 
 
-**DATA PREPROCESSING**
+# DATA PREPROCESSING
 
 We have used LIBROSA python package for audio analysis purpose
 
@@ -27,7 +27,7 @@ Here we have use MFCC(Mel-Frequency Cepstral Coefficients)featrure extraction to
 which will convert it into an one dimensional array .
 
 
-**MODEL**
+# MODEL
 
 With the help of tensorflow,Keras python library we have successfully created
 a CNN(convolution Neural Network model)
@@ -43,6 +43,7 @@ and one GLOBALMAXPOOLING1-D to the last hidden layer .
 We compiled our model using BINARY_CROSSENTROPY LOSS,and optimizer used : ADAM,with ACCURACY metric
 
 **FITTING THE MODEL**
+
 We have taken BATCH_SIZE of 16 and condired 15 EPOCHS with validation data as our X_TEST,Y_TEST and fit our model with 
 X_TRAIN,Y_TRAIN.
 
@@ -52,3 +53,10 @@ and test accuracy of 89.29% with val_loss of 0.3694
 we have plotted our training and test loss to visualise our model 
 
 ![download](https://user-images.githubusercontent.com/79101972/167283505-71fd7e3d-dca7-4a1e-80d4-1a340ffe9164.png)
+
+We have tested our prediction on the test data set which gives an array whose values are between 0 and 1
+we have taken a threshold value of 0.5.i.e, if the value of prediction is more than 0.5 then it will come under class 1 else in class 0
+(classification)
+**1-->LEAK PIPE
+  0-->NON-LEAK PIPE **
+
