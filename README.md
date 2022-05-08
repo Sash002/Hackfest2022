@@ -11,3 +11,23 @@ The primary goal of the project is to leverage recent  developments  in  smart  
 Data : A portion of used Data to observe the nature
 
 Analysis_and_Model.ipynb : Analysis of Data, Training the model, Testing the model
+
+
+**DATA PREPROCESSING**
+
+We have used LIBROSA python package for audio analysis purpose
+
+Used matplotlib for data visualisation
+
+WE have then normalises the AUDIO DATAS
+
+Used Numpy library for high performance multidimensional array calculations.
+
+Here we have use MFCC(Mel-Frequency Cepstral Coefficients)featrure extraction to extract features from audio files 
+which will convert it into an one dimensional array .
+
+
+**MODEL**
+
+With the help of tensorflow,Keras python library we have successfully created
+a CNN(convolution Neural Network model)
