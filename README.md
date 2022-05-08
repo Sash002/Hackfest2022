@@ -1,4 +1,4 @@
-# Hackfest2022
+## Hackfest2022
 
 **Goal of our project**
 
@@ -21,7 +21,7 @@ Link for Dataset : https://data.mendeley.com/datasets/hkn8mxcjyz/1
 
 
 
-**DATA PREPROCESSING**
+# **DATA PREPROCESSING**
 
 We have used LIBROSA python package for audio analysis purpose
 
@@ -35,7 +35,7 @@ Here we have use MFCC(Mel-Frequency Cepstral Coefficients)featrure extraction to
 which will convert it into an one dimensional array .
 
 
-**MODEL**
+# **MODEL**
 
 With the help of tensorflow,Keras python library we have successfully created
 a CNN(convolution Neural Network model)
