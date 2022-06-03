@@ -75,4 +75,6 @@ we have taken a threshold value of 0.5.i.e, if the value of prediction is more t
 
 **DEPLOYMENT**
 
-After building the model, the model is deployed via a user friendly web interface, namely Gradio. Time series is given for the inputs for the output to predict if there's a leak or not.
+After building the model, the model is deployed via a user friendly web interface, namely *Gradio*. Time series is given for the inputs for the output to predict if there's a leak or not.
+The Interface class has 3 parameters-the leak_detector function, the input components being Time Series data and the output component showing whether there is a leak or not.
+
